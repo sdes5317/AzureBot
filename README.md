@@ -30,6 +30,19 @@
 ![Web App Bot](/picture/05.jpg)
 * 這個選項會同時幫你建立**Bot**跟**AppService**
 * 選這個有一個好處是他可以**幫你自動產生範本裡面附帶appId跟金鑰**
+* 建議第一次使用這個選項，透過他自動產生範本功能
+![Web App Bot設定頁面1](/picture/07.jpg)
+1. **Bot控制代碼**:唯一識別碼，這裡可直接輸入專案名稱
+2. 訂閱帳戶:這裡以學術帳號示範，如果是一般帳號可能要綁信用卡
+3. 資源群組:如果之前沒有的話在這裡要建一個
+4. 位置:沒特殊需求就選亞洲
+5. **定價層:這裡要特別注意，要選F0，否則是會產生額外費用的**
+6. **應用程式名稱**:這個名稱會當作你建立的AppService網域
+7. 機器人範本:依照需求選擇範本(這次使用的是Echo Bot)
+8. **App Service方案/位置:這裡也要特別注意，如果你使用他自動幫你新建的，預設他會幫你選S1，記得建完後要去這個方案改回F0，否則也會有額外的費用**
+9. Application Insights:預設
+10. Application Insights位置:預設
+11. Microsoft應用程式ID和密碼:預設
 
 #### Bot Channels Registration
 ![Web App Bot](/picture/06.jpg)
