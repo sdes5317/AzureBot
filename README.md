@@ -44,7 +44,7 @@
 9. Application Insights:預設
 10. Application Insights位置:預設
 11. Microsoft應用程式ID和密碼:預設
-12. 設定完上面的參數建立後，可依下列流程完成Hello World，**產生範本-> 開啟範本並架設-> 使用ngrok取得實體ip-> 設定Api網址-> 在teams中啟用bot**
+12. 設定完上面的參數建立後，可依下列流程完成Hello World，**產生範本-> 開啟範本並架設Web Api-> 使用ngrok取得實體ip-> 設定Api網址-> 在teams中啟用bot**
 
 ###### 產生範本
 ![Web App Bot設定頁面1](/picture/09.JPG)
@@ -65,6 +65,7 @@
 ![Web App Bot](/picture/06.JPG)
 * 這個方案只負責幫你把用戶訊息轉發到你的Bot Web Api
 * 如果你已經熟悉Web App Bot，**差別**其實就是你要**自己去抓Bot範本並把AppId及金鑰貼在appsetting，且自己架設Web Api**
+* 流程，**把AppId及金鑰設定到現有範本並架設Web Api-> 使用ngrok取得實體ip-> 設定Api網址-> 在teams中啟用bot**
 
 ###### 找尋AppId及設定金鑰
 1. Microsoft App ID即為我們範本要使用的AppId
