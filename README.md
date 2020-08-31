@@ -29,8 +29,6 @@
 * 建議第一次使用這個選項，透過他自動產生範本功能
 
 
-
-
 ###### 設定頁面
 ![Web App Bot設定頁面1](/picture/07.JPG)
 ![Web App Bot設定頁面1](/picture/08.JPG)
@@ -48,21 +46,14 @@
 11. Microsoft應用程式ID和密碼:預設
 12. 設定完上面的參數建立後，可依下列流程完成Hello World，** 產生範本-> 開啟範本並架設-> 使用ngrok取得實體ip-> 設定Api網址-> 在teams中啟用bot **
 
-
-
-
 ###### 產生範本
 ![Web App Bot設定頁面1](/picture/09.JPG)
-
-
 
 ###### 設定Api網址
 * 假設使用ngrok，每次改變都要重新設置
 * 這裡預設會是Azure App Servcie的網址，也可以直接使用產生的範本，自己架設的Web Api網址
 * 改變後要等幾分鐘才會生效
 ![Web App Bot設定頁面1](/picture/10.JPG)
-
-
 
 ###### 在teams中啟用bot
 ![在teams中啟用bot1](/picture/11.JPG)
