@@ -18,18 +18,19 @@
 
 ## Azure Bot申請流程
 1. 進入Azure 主控台
-![主控台畫面](/picture/1.jpg)
+![主控台畫面](/picture/01.jpg)
 2. 選擇Bot服務
-![Bot服務1](/picture/2.jpg)
-![Bot服務2](/picture/3.jpg)
+![Bot服務1](/picture/02.jpg)
+![Bot服務2](/picture/03.jpg)
 3. * Web App Bot表示你要使用Azure AppService架設Web Api及使用Bot Channel的服務
    * Bot Channels Registration表示你只單純使用Bot Channel的服務
-![Bot服務3](/picture/4.jpg)
+![Bot服務3](/picture/04.jpg)
 
 #### Web App Bot
-* 這個選項會同時幫你建立Bot跟AppService
-* 選這個有一個好處是他可以幫你自動產生範本裡面附帶appId跟金鑰
+![Web App Bot](/picture/05.jpg)
+* 這個選項會同時幫你建立**Bot**跟**AppService**
+* 選這個有一個好處是他可以**幫你自動產生範本裡面附帶appId跟金鑰**
 
 #### Bot Channels Registration
-* 如果你已經熟悉Web App Bot，差別其實就是你要自己去抓Bot範本並把AppId貼上，自己產生金鑰，自己架設Web Api
-* 
+![Web App Bot](/picture/06.jpg)
+* 如果你已經熟悉Web App Bot，**差別**其實就是你要**自己去抓Bot範本並把AppId及金鑰貼在appsetting，且自己架設Web Api**
