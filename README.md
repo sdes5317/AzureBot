@@ -24,6 +24,7 @@
 ![Bot服務2](/picture/03.JPG)
 3. * Web App Bot表示你要使用Azure AppService架設Web Api及使用Bot Channel的服務
    * Bot Channels Registration表示你只單純使用Bot Channel的服務
+
 ![Bot服務3](/picture/04.JPG)
 
 #### Web App Bot
