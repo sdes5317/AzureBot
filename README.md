@@ -60,7 +60,15 @@
 ![在teams中啟用bot2](/picture/12.JPG)
 ![在teams中啟用bot3](/picture/13.JPG)
 * 最後一步點擊teams圖標後，會問你要不要開起teams，開啟後自動把bot加入對話，這時候bot會收到OnConversationUpdateActivityAsync事件
+
 # Bot Channels Registration
 ![Web App Bot](/picture/06.JPG)
 * 這個方案只負責幫你把用戶訊息轉發到你的Bot Web Api
 * 如果你已經熟悉Web App Bot，**差別**其實就是你要**自己去抓Bot範本並把AppId及金鑰貼在appsetting，且自己架設Web Api**
+
+###### 找尋AppId及設定金鑰
+1. Microsoft App ID即為我們範本要使用的AppId
+2. 點擊**管理**設定金鑰
+![找尋AppId及設定金鑰](/picture/14.JPG)
+3. 新增後自己記得金鑰，以後只能重創
+![找尋AppId及設定金鑰](/picture/14.JPG)
