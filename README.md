@@ -23,9 +23,13 @@
 
 # Web App Bot
 ![Web App Bot](/picture/05.JPG)
+
 * 這個選項實際上會在你的Azure同時幫你建立**Bot**跟**AppService**兩個方案
 * 選這個有一個好處是他可以**幫你自動產生範本裡面附帶appId跟金鑰**
 * 建議第一次使用這個選項，透過他自動產生範本功能
+
+
+
 
 ###### 設定頁面
 ![Web App Bot設定頁面1](/picture/07.JPG)
@@ -42,10 +46,14 @@
 9. Application Insights:預設
 10. Application Insights位置:預設
 11. Microsoft應用程式ID和密碼:預設
-12. 設定完上面的參數建立後，可依下列流程完成Hello World，** 產生範本-> 開啟範本並架設-> 使用ngrok取得實體ip-> 設定Api網址-> 把bot註冊到teams **
+12. 設定完上面的參數建立後，可依下列流程完成Hello World，** 產生範本-> 開啟範本並架設-> 使用ngrok取得實體ip-> 設定Api網址-> 在teams中啟用bot **
+
+
+
 
 ###### 產生範本
 ![Web App Bot設定頁面1](/picture/09.JPG)
+
 
 
 ###### 設定Api網址
@@ -54,6 +62,13 @@
 * 改變後要等幾分鐘才會生效
 ![Web App Bot設定頁面1](/picture/10.JPG)
 
+
+
+###### 在teams中啟用bot
+![在teams中啟用bot1](/picture/11.JPG)
+![在teams中啟用bot2](/picture/12.JPG)
+![在teams中啟用bot3](/picture/13.JPG)
+* 最後一步點擊teams圖標後，會問你要不要開起teams，開啟後自動把bot加入對話，這時候bot會收到OnConversationUpdateActivityAsync事件
 # Bot Channels Registration
 ![Web App Bot](/picture/06.JPG)
 * 這個方案只負責幫你把用戶訊息轉發到你的Bot Web Api
