@@ -32,6 +32,7 @@
 * 選這個有一個好處是他可以**幫你自動產生範本裡面附帶appId跟金鑰**
 * 建議第一次使用這個選項，透過他自動產生範本功能
 ![Web App Bot設定頁面1](/picture/07.jpg)
+![Web App Bot設定頁面1](/picture/08.jpg)
 1. **Bot控制代碼**:唯一識別碼，這裡可直接輸入專案名稱
 2. 訂閱帳戶:這裡以學術帳號示範，如果是一般帳號可能要綁信用卡
 3. 資源群組:如果之前沒有的話在這裡要建一個
@@ -43,6 +44,11 @@
 9. Application Insights:預設
 10. Application Insights位置:預設
 11. Microsoft應用程式ID和密碼:預設
+
+###### 產生範本
+![Web App Bot設定頁面1](/picture/09.jpg)
+###### 設定範本的Web Api網址
+![Web App Bot設定頁面1](/picture/10.jpg)
 
 #### Bot Channels Registration
 ![Web App Bot](/picture/06.jpg)
