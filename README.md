@@ -47,7 +47,9 @@
 
 ###### 產生範本
 ![Web App Bot設定頁面1](/picture/09.jpg)
-###### 設定範本的Web Api網址
+###### 當Web Api網址有改變時
+* 這裡預設會是Azure App Servcie的網址，也可以直接使用自己架設的Web Api網址
+* 改變後要等幾分鐘才會生效
 ![Web App Bot設定頁面1](/picture/10.jpg)
 
 #### Bot Channels Registration
